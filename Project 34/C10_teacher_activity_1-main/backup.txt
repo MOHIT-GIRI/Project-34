@@ -1,0 +1,26 @@
+//ARRAYS
+var a=10;
+console.log(a);
+
+//10,20,30,40,50
+
+var marks=[10,20,30,40,50];
+
+function marks_avg(){
+  var sum=marks[0]+marks[1]+marks[2]+marks[3]+marks[4];
+  var avg=sum/marks.length
+  console.log(avg)
+}
+
+
+function setup() {
+  createCanvas(400, 400);
+  marks_avg()
+}
+
+function draw() {
+  background(220);
+}
+
+//HOMEWORk
+//Q. find the avrage weight of 20 people in kgs(45,55,85,74,112,58,96,45,78)
